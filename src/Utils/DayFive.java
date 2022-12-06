@@ -1,3 +1,5 @@
+package Utils;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -7,7 +9,7 @@ import java.util.EmptyStackException;
 import java.util.List;
 import java.util.Stack;
 
-public class DayFiveUtils {
+public class DayFive {
     public static void runDayFivePart1(){
         File file = new File("./input/Crates.txt");
         BufferedReader br;

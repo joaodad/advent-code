@@ -1,9 +1,11 @@
+package Utils;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class DayFourUtils {
+public class DayFour {
 
     public static void runDayFourPart1(){
         File file = new File("./input/CleaningSections.txt");

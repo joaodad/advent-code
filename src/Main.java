@@ -1,21 +1,16 @@
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-
 public class Main {
     public static void main(String[] args) {
-        // DayTwoUtils.runDayOne();
-        // DayTwoUtils.runDayTwoPart1();
-        // DayTwoUtils.runDayTwoPart2();
-        //  DayThreeUtils.runDayThreePart1();
-        //  DayThreeUtils.runDayThreePart2();
-        //  DayFourUtils.runDayFourPart1();
-        //DayFourUtils.runDayFourPart2();
-       // DayFiveUtils.runDayFivePart1();
-       //     DayFiveUtils.runDayFivePart2();
-       // DaySixUtils.runDaySixPart1();
-        DaySixUtils.runDaySixPart2();
+//        Utils.DayTwo.runDayOne();
+//        Utils.DayTwo.runDayTwoPart1();
+//        Utils.DayTwo.runDayTwoPart2();
+//        Utils.DayThree.runDayThreePart1();
+//        Utils.DayThree.runDayThreePart2();
+//        Utils.DayFour.runDayFourPart1();
+//        Utils.DayFour.runDayFourPart2();
+//        Utils.DayFive.runDayFivePart1();
+//        Utils.DayFive.runDayFivePart2();
+//        Utils.DaySix.runDaySixPart1();
+        Utils.DaySix.runDaySixPart2();
     }
 
 

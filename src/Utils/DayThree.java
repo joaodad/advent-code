@@ -1,9 +1,11 @@
+package Utils;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class DayThreeUtils {
+public class DayThree {
     private static final String priorities = "0abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     public static void runDayThreePart1(){

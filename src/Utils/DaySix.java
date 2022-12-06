@@ -1,11 +1,12 @@
+package Utils;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashSet;
 
-public class DaySixUtils {
+public class DaySix {
     public static void runDaySixPart1(){
         File file = new File("./input/SignalStream.txt");
         BufferedReader br;

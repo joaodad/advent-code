@@ -1,9 +1,11 @@
+package Utils;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class DayTwoUtils {
+public class DayTwo {
     private static final char rock = 'X';
     private static final char paper = 'Y';
     private static final char scissors = 'Z';
@@ -81,8 +83,8 @@ public class DayTwoUtils {
             while ((st = br.readLine()) != null){
                 char theirMove = st.charAt(0);
                 char desiredOutcome = st.charAt(2);
-                char myMove = DayTwoUtils.getMyMove(theirMove, desiredOutcome);
-                int scoreFromRound = DayTwoUtils.getScoreFromBattle(myMove, theirMove);
+                char myMove = DayTwo.getMyMove(theirMove, desiredOutcome);
+                int scoreFromRound = DayTwo.getScoreFromBattle(myMove, theirMove);
                 totalScore += scoreFromRound;
                 System.out.println("Battle Sum - " + scoreFromRound);
             }
