@@ -13,7 +13,9 @@ public class Main {
         //  DayFourUtils.runDayFourPart1();
         //DayFourUtils.runDayFourPart2();
        // DayFiveUtils.runDayFivePart1();
-            DayFiveUtils.runDayFivePart2();
+       //     DayFiveUtils.runDayFivePart2();
+       // DaySixUtils.runDaySixPart1();
+        DaySixUtils.runDaySixPart2();
     }
 
 
